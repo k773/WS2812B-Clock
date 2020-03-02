@@ -3,7 +3,7 @@ Orange Pi addressable LED library.
 
 Tested boards:
 
-  Orange Pi lite2
+    Orange Pi lite2
   
   
 To run test example:
