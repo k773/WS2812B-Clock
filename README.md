@@ -1,8 +1,7 @@
 # WS2812B-Clock
-Orange PI addressable LED library.
+Orange Pi addressable LED library.
 Tested boards:
-
-        Orange pi lite2
+ Orange Pi lite2
   
   
 To run test example:
