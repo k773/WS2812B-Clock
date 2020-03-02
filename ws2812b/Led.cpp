@@ -105,11 +105,11 @@ void Led::show() {
 #else
 // Simple implementation
 // Set SPI bitrate to 3.333 MHz.
-#define SPI_SPEED           3333000
+#define SPI_SPEED           3330000
 
 // Each PWM bit is projected to 4 SPI bits at 3.333MHz
-#define PWM_ZERO                    0b1000
-#define PWM_ONE                     0b1110
+#define PWM_ZERO                    0b10001
+#define PWM_ONE                     0b11101
 #define RESET_SIGNAL_IN_SECONDS     0.000060
 #define RESET_SIGNAL_IN_SPI_BYTES   ((int)(SPI_SPEED * RESET_SIGNAL_IN_SECONDS)/8.0)
 
