@@ -7,16 +7,18 @@ Tested boards:
   
   
  Usage:
- ```git clone https://github.com/k773/WS2812B-Clock```
+ ```
+ git clone https://github.com/k773/WS2812B-Clock
  
-  ```cd WS2812B-Clock/```
+  cd WS2812B-Clock/
   
-  ```mkdir build```
+  mkdir build
   
-  ```cd build```
+  cd build
   
-  ```cmake ..```
+  cmake ..
   
-  ```make```
+  make
   
-  ```./W2812Clock```
+  ./W2812Clock
+  ```
