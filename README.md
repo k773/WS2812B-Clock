@@ -15,4 +15,4 @@ cmake ..
 make
 ./W2812Clock
 ```
-Make sure you have spi enabled and your leds are properly connected to it.
+Make sure you have spi enabled and your leds are properly connected to spi pin.
